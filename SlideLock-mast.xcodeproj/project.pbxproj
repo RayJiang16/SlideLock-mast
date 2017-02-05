@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B539E311E45C4A200C62954 /* UIView+RAYShake.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B539E301E45C4A200C62954 /* UIView+RAYShake.m */; };
+		9BC8F0E01E40770E009B8931 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8F0DF1E40770E009B8931 /* UIView+Extension.m */; };
+		9BCA42981E3F27F4006CAD39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA42971E3F27F4006CAD39 /* main.m */; };
+		9BCA429B1E3F27F4006CAD39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA429A1E3F27F4006CAD39 /* AppDelegate.m */; };
+		9BCA429E1E3F27F4006CAD39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA429D1E3F27F4006CAD39 /* ViewController.m */; };
+		9BCA42A11E3F27F4006CAD39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCA429F1E3F27F4006CAD39 /* Main.storyboard */; };
+		9BCA42A31E3F27F4006CAD39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCA42A21E3F27F4006CAD39 /* Assets.xcassets */; };
+		9BCA42A61E3F27F4006CAD39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCA42A41E3F27F4006CAD39 /* LaunchScreen.storyboard */; };
+		9BCA42B61E3F293A006CAD39 /* RAYSlideLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA42B51E3F293A006CAD39 /* RAYSlideLockViewController.m */; };
+		9BCA42BA1E3F2A48006CAD39 /* RAYSlideLockSmallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA42B91E3F2A48006CAD39 /* RAYSlideLockSmallView.m */; };
+		9BCA42BD1E3F2A58006CAD39 /* RAYSlideLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA42BC1E3F2A58006CAD39 /* RAYSlideLockView.m */; };
+		9BCA42C01E3F2A93006CAD39 /* RAYSlideLockItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA42BF1E3F2A93006CAD39 /* RAYSlideLockItem.m */; };
+		9BD6A26C1E4315B200B1A1D3 /* RAYSlideLockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6A26B1E4315B200B1A1D3 /* RAYSlideLockModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B539E2F1E45C4A200C62954 /* UIView+RAYShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RAYShake.h"; sourceTree = "<group>"; };
+		9B539E301E45C4A200C62954 /* UIView+RAYShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RAYShake.m"; sourceTree = "<group>"; };
+		9BC8F0DE1E40770E009B8931 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		9BC8F0DF1E40770E009B8931 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		9BCA42931E3F27F4006CAD39 /* SlideLock-mast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SlideLock-mast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCA42971E3F27F4006CAD39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BCA42991E3F27F4006CAD39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BCA429A1E3F27F4006CAD39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BCA429C1E3F27F4006CAD39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BCA429D1E3F27F4006CAD39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BCA42A01E3F27F4006CAD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BCA42A21E3F27F4006CAD39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BCA42A51E3F27F4006CAD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BCA42A71E3F27F4006CAD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCA42B41E3F293A006CAD39 /* RAYSlideLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAYSlideLockViewController.h; sourceTree = "<group>"; };
+		9BCA42B51E3F293A006CAD39 /* RAYSlideLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAYSlideLockViewController.m; sourceTree = "<group>"; };
+		9BCA42B81E3F2A48006CAD39 /* RAYSlideLockSmallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAYSlideLockSmallView.h; sourceTree = "<group>"; };
+		9BCA42B91E3F2A48006CAD39 /* RAYSlideLockSmallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAYSlideLockSmallView.m; sourceTree = "<group>"; };
+		9BCA42BB1E3F2A58006CAD39 /* RAYSlideLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAYSlideLockView.h; sourceTree = "<group>"; };
+		9BCA42BC1E3F2A58006CAD39 /* RAYSlideLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAYSlideLockView.m; sourceTree = "<group>"; };
+		9BCA42BE1E3F2A93006CAD39 /* RAYSlideLockItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAYSlideLockItem.h; sourceTree = "<group>"; };
+		9BCA42BF1E3F2A93006CAD39 /* RAYSlideLockItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAYSlideLockItem.m; sourceTree = "<group>"; };
+		9BCA42C11E3F2DC4006CAD39 /* RAYSliderLockHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAYSliderLockHeader.h; sourceTree = "<group>"; };
+		9BD6A26A1E4315B200B1A1D3 /* RAYSlideLockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAYSlideLockModel.h; sourceTree = "<group>"; };
+		9BD6A26B1E4315B200B1A1D3 /* RAYSlideLockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAYSlideLockModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BCA42901E3F27F4006CAD39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BC8F0DD1E407361009B8931 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9BC8F0DE1E40770E009B8931 /* UIView+Extension.h */,
+				9BC8F0DF1E40770E009B8931 /* UIView+Extension.m */,
+				9B539E2F1E45C4A200C62954 /* UIView+RAYShake.h */,
+				9B539E301E45C4A200C62954 /* UIView+RAYShake.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9BCA428A1E3F27F4006CAD39 = {
+			isa = PBXGroup;
+			children = (
+				9BCA42951E3F27F4006CAD39 /* SlideLock-mast */,
+				9BCA42941E3F27F4006CAD39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BCA42941E3F27F4006CAD39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA42931E3F27F4006CAD39 /* SlideLock-mast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BCA42951E3F27F4006CAD39 /* SlideLock-mast */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA42AD1E3F2851006CAD39 /* SlideLock */,
+				9BCA42991E3F27F4006CAD39 /* AppDelegate.h */,
+				9BCA429A1E3F27F4006CAD39 /* AppDelegate.m */,
+				9BCA429C1E3F27F4006CAD39 /* ViewController.h */,
+				9BCA429D1E3F27F4006CAD39 /* ViewController.m */,
+				9BCA429F1E3F27F4006CAD39 /* Main.storyboard */,
+				9BCA42A21E3F27F4006CAD39 /* Assets.xcassets */,
+				9BCA42A41E3F27F4006CAD39 /* LaunchScreen.storyboard */,
+				9BCA42A71E3F27F4006CAD39 /* Info.plist */,
+				9BCA42961E3F27F4006CAD39 /* Supporting Files */,
+			);
+			path = "SlideLock-mast";
+			sourceTree = "<group>";
+		};
+		9BCA42961E3F27F4006CAD39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA42971E3F27F4006CAD39 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BCA42AD1E3F2851006CAD39 /* SlideLock */ = {
+			isa = PBXGroup;
+			children = (
+				9BC8F0DD1E407361009B8931 /* Category */,
+				9BCA42AE1E3F2851006CAD39 /* Controller */,
+				9BCA42AF1E3F2851006CAD39 /* Model */,
+				9BCA42B01E3F2851006CAD39 /* View */,
+			);
+			path = SlideLock;
+			sourceTree = "<group>";
+		};
+		9BCA42AE1E3F2851006CAD39 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA42B41E3F293A006CAD39 /* RAYSlideLockViewController.h */,
+				9BCA42B51E3F293A006CAD39 /* RAYSlideLockViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BCA42AF1E3F2851006CAD39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA42C11E3F2DC4006CAD39 /* RAYSliderLockHeader.h */,
+				9BD6A26A1E4315B200B1A1D3 /* RAYSlideLockModel.h */,
+				9BD6A26B1E4315B200B1A1D3 /* RAYSlideLockModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BCA42B01E3F2851006CAD39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA42B81E3F2A48006CAD39 /* RAYSlideLockSmallView.h */,
+				9BCA42B91E3F2A48006CAD39 /* RAYSlideLockSmallView.m */,
+				9BCA42BB1E3F2A58006CAD39 /* RAYSlideLockView.h */,
+				9BCA42BC1E3F2A58006CAD39 /* RAYSlideLockView.m */,
+				9BCA42BE1E3F2A93006CAD39 /* RAYSlideLockItem.h */,
+				9BCA42BF1E3F2A93006CAD39 /* RAYSlideLockItem.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BCA42921E3F27F4006CAD39 /* SlideLock-mast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCA42AA1E3F27F4006CAD39 /* Build configuration list for PBXNativeTarget "SlideLock-mast" */;
+			buildPhases = (
+				9BCA428F1E3F27F4006CAD39 /* Sources */,
+				9BCA42901E3F27F4006CAD39 /* Frameworks */,
+				9BCA42911E3F27F4006CAD39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SlideLock-mast";
+			productName = "SlideLock-mast";
+			productReference = 9BCA42931E3F27F4006CAD39 /* SlideLock-mast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BCA428B1E3F27F4006CAD39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RAY;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Ray;
+				TargetAttributes = {
+					9BCA42921E3F27F4006CAD39 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = C7G6G2QS28;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9BCA428E1E3F27F4006CAD39 /* Build configuration list for PBXProject "SlideLock-mast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BCA428A1E3F27F4006CAD39;
+			productRefGroup = 9BCA42941E3F27F4006CAD39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BCA42921E3F27F4006CAD39 /* SlideLock-mast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BCA42911E3F27F4006CAD39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCA42A61E3F27F4006CAD39 /* LaunchScreen.storyboard in Resources */,
+				9BCA42A31E3F27F4006CAD39 /* Assets.xcassets in Resources */,
+				9BCA42A11E3F27F4006CAD39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BCA428F1E3F27F4006CAD39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCA42BD1E3F2A58006CAD39 /* RAYSlideLockView.m in Sources */,
+				9BD6A26C1E4315B200B1A1D3 /* RAYSlideLockModel.m in Sources */,
+				9B539E311E45C4A200C62954 /* UIView+RAYShake.m in Sources */,
+				9BCA42B61E3F293A006CAD39 /* RAYSlideLockViewController.m in Sources */,
+				9BCA429E1E3F27F4006CAD39 /* ViewController.m in Sources */,
+				9BCA42C01E3F2A93006CAD39 /* RAYSlideLockItem.m in Sources */,
+				9BCA429B1E3F27F4006CAD39 /* AppDelegate.m in Sources */,
+				9BCA42981E3F27F4006CAD39 /* main.m in Sources */,
+				9BC8F0E01E40770E009B8931 /* UIView+Extension.m in Sources */,
+				9BCA42BA1E3F2A48006CAD39 /* RAYSlideLockSmallView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BCA429F1E3F27F4006CAD39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCA42A01E3F27F4006CAD39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BCA42A41E3F27F4006CAD39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCA42A51E3F27F4006CAD39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BCA42A81E3F27F4006CAD39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BCA42A91E3F27F4006CAD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BCA42AB1E3F27F4006CAD39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C7G6G2QS28;
+				INFOPLIST_FILE = "SlideLock-mast/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ray.SlideLock-mast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BCA42AC1E3F27F4006CAD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C7G6G2QS28;
+				INFOPLIST_FILE = "SlideLock-mast/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ray.SlideLock-mast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BCA428E1E3F27F4006CAD39 /* Build configuration list for PBXProject "SlideLock-mast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCA42A81E3F27F4006CAD39 /* Debug */,
+				9BCA42A91E3F27F4006CAD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCA42AA1E3F27F4006CAD39 /* Build configuration list for PBXNativeTarget "SlideLock-mast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCA42AB1E3F27F4006CAD39 /* Debug */,
+				9BCA42AC1E3F27F4006CAD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BCA428B1E3F27F4006CAD39 /* Project object */;
+}
